@@ -395,7 +395,7 @@
                                              require_once 'functions.php';
                                              $dates = listdates(2);
                                              $date_ary = json_decode($dates);
-                                             echo $date_ary[1];
+                                             echo $date_ary;
                                         ?>
 
                                     </div>
