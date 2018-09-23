@@ -23,5 +23,5 @@ if ($err) {
 } else {
     echo  $response;
     echo "success";
-}
+}}
 ?>
