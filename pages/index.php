@@ -396,6 +396,7 @@
                                              $dates = listdates(2);
                                              $date_utf = utf8_encode($dates);
                                              $date_ary = json_decode($date_utf, TRUE);
+                                             var_dump($date_ary[0]);
                                         ?>
 
                                     </div>
