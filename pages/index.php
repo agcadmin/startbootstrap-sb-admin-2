@@ -393,10 +393,11 @@
                                             <?php
                                             ini_set('display_errors', 'On');
                                              require_once 'functions.php';
-                                             $dates = listdates(1);
+                                             $dates = listdates(2);
                                              $date_utf = utf8_encode($dates);
                                              $date_ary = json_decode($date_utf, TRUE);
                                              print_r($dates);
+                                             var_dump($date_ary);
                                         ?>
 
                                     </div>
