@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
-                                    <?php echo <div> $arrayofDates</div> ?>
+                                    <?php echo "<div> $arrayofDates </div>" ?>
                                 </div>
                             </div>
 <?php
