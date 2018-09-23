@@ -397,7 +397,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://therundown.io/api/v1/sports/%7Bsport-id%7D/dates?format=epoch",
+  CURLOPT_URL => "https://therundown.io/api/v1/sports/2/dates?format=epoch",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
