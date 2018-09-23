@@ -415,7 +415,7 @@ curl_close($curl);
 if ($err) {
   echo "cURL Error #:" . $err;
 } else {
-arrayofDates = $response;
+    echo  $response;
 }
 ?>
                         </div>
