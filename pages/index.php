@@ -391,6 +391,7 @@
                                     <div class="huge">26</div>
                                      <div>
                                             <?php
+                                            ini_set('display_errors', 'On');
                                              require_once 'functions.php';
                                              echo listdates(2);
                                         ?>
