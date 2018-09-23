@@ -1,9 +1,9 @@
 <?php
-function listdates($sportid){ //function parameters, two variables.
+function listdates{ //function parameters, two variables.
   $curl = curl_init();
 
   curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://therundown.io/api/v1/sports/$sportid/dates?format=epoch",
+  CURLOPT_URL => "https://therundown.io/api/v1/sports/2/dates?format=epoch",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -26,8 +26,3 @@ if ($err) {
 ?>
 
 
-<?php
-  function first($int, $string){ //function parameters, two variables.
-    return $string;  //returns the second argument passed into the function
-  }
-?>
