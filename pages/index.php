@@ -388,8 +388,12 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                     <div>
+                                    <?php
+                                    $output = shell_exec('uname -a | cut -f1 -d" "');
+                                    echo "<div class="huge">$output</div>";
+                                    ?>
+<!--                                     <div class="huge">$output</div>
+ -->                                     <div>
                                             <?php
                                             ini_set('display_errors', 'On');
                                              require_once 'functions.php';
@@ -398,10 +402,7 @@
                                              $date_ary = json_decode($dates, TRUE);
                                              var_dump($date_ary);*/
                                         ?>
-<?php
-$output = shell_exec('uname -a | cut -f1 -d" "');
-echo "<pre>$output</pre>";
-?>
+
                                     </div>
                                 </div>
                             </div>
