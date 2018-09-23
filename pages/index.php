@@ -391,21 +391,14 @@
                                     
                                     <div class="huge">NLF Days</div>
                                      <div>
-                                            <?php
-                                            ini_set('display_errors', 'On');
-                                             require_once 'functions.php';
-                                             $dates = listdates(2);
-/*                                             $date_utf = utf8_encode($dates);
-                                             $date_ary = json_decode($dates, TRUE);
-                                             var_dump($date_ary);*/
-                                        ?>
+                                                
 
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <a href="/nfldates.php">
+                        <a href="/pages/nfldates.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
