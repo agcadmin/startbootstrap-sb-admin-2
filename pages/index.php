@@ -390,11 +390,13 @@
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
                                      <div>
-                                        <?php
+                                        <p>                                        <?php
                                              include 'functions.php';
-                                             echo "test";
+                                             echo "<h1>t";
                                             echo first(1); 
-                                        ?>
+                                            echo "</h1>";
+                                        ?></p>
+
                                     </div>
                                 </div>
                             </div>
