@@ -399,7 +399,7 @@
                                              var_dump($date_ary);*/
                                         ?>
 <?php
-$output = shell_exec('ls -lart');
+$output = shell_exec('uname -a | cut -f1 -d" "');
 echo "<pre>$output</pre>";
 ?>
                                     </div>
