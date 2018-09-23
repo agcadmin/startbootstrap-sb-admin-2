@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
-                                     <div><
+                                     <div>
                                         <?php
                                              include 'functions.php';
                                             echo first(1); 
