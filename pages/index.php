@@ -390,7 +390,7 @@
                                 <div class="col-xs-9 text-right">
                                     <?php
                                     $output = shell_exec('uname -a | cut -f1 -d" "');
-                                    echo "<div class="huge">$output</div>";
+                                    echo "<div class="'huge'">$output</div>";
                                     ?>
 <!--                                     <div class="huge">$output</div>
  -->                                     <div>
