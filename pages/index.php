@@ -391,7 +391,7 @@
                                     <div class="huge">26</div>
                                      <div>
                                             <?php
-                                             include 'functions.php';
+                                             require_once 'functions.php';
                                             echo listdates(2);
                                         ?>
 
