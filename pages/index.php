@@ -392,8 +392,7 @@
                                      <div>
                                             <?php
                                              include 'functions.php';
-                                             echo "<h1>ttest</h1>";
-                                            echo listdates(2) 
+                                            echo listdates(2);
                                         ?>
 
                                     </div>
