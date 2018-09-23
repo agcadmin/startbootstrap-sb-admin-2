@@ -392,7 +392,7 @@
                                     <div>New Comments!</div>
                                 </div>
                             </div>
-                            <?php
+<?php
 
 $curl = curl_init();
 
