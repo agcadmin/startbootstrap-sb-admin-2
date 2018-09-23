@@ -393,7 +393,7 @@
                                             <?php
                                              include 'functions.php';
                                              echo "<h1>ttest</h1>";
-                                            echo listdates(); 
+                                            echo listdates(2) 
                                         ?>
 
                                     </div>
