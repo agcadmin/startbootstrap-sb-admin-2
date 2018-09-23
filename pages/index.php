@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -416,6 +417,7 @@ if ($err) {
 } else {
   echo $response;
 }
+?>
                         </div>
                         <a href="#">
                             <div class="panel-footer">
