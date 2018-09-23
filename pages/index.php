@@ -392,7 +392,7 @@
                                      <div>
                                             <?php
                                              require_once 'functions.php';
-                                            echo listdates(2);
+                                             echo listdates(2);
                                         ?>
 
                                     </div>

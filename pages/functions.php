@@ -1,5 +1,5 @@
 <?php
-function listdates($sprtid){ //function parameters, two variables.
+function listdates($int){ //function parameters, two variables.
   $curl = curl_init();
 
   curl_setopt_array($curl, array(
