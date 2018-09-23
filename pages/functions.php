@@ -1,8 +1,8 @@
 <?php
+function listdates($int){ //function parameters, two variables.
+  $curl = curl_init();
 
-$curl = curl_init();
-
-curl_setopt_array($curl, array(
+  curl_setopt_array($curl, array(
   CURLOPT_URL => "https://therundown.io/api/v1/sports/2/dates?format=epoch",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
@@ -23,4 +23,11 @@ if ($err) {
 } else {
     echo  $response;
 }
+?>
+
+
+<?php
+  function first($int, $string){ //function parameters, two variables.
+    return $string;  //returns the second argument passed into the function
+  }
 ?>

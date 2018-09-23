@@ -390,12 +390,11 @@
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
                                      <div>
-                                        <p>                                        <?php
+                                        <h1>                                        <?php
                                              include 'functions.php';
                                              echo "<h1>t";
-                                            echo first(1); 
-                                            echo "</h1>";
-                                        ?></p>
+                                            echo listdates(2); 
+                                        ?></h1>
 
                                     </div>
                                 </div>
