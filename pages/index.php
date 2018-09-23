@@ -388,12 +388,9 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <?php
-                                    $output = shell_exec('uname -a | cut -f1 -d" "');
-                                    echo "<div class="">$output</div>";
-                                    ?>
-<!--                                     <div class="huge">$output</div>
- -->                                     <div>
+                                    
+                                    <div class="huge">$output</div>
+                                     <div>
                                             <?php
                                             ini_set('display_errors', 'On');
                                              require_once 'functions.php';
