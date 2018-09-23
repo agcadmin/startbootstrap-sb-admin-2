@@ -398,7 +398,10 @@
                                              $date_ary = json_decode($dates, TRUE);
                                              var_dump($date_ary);*/
                                         ?>
-
+<?php
+$output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
+?>
                                     </div>
                                 </div>
                             </div>
