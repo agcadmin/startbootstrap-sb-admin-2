@@ -394,8 +394,8 @@
                                             ini_set('display_errors', 'On');
                                              require_once 'functions.php';
                                              $dates = listdates(2);
-                                             $date_ary = json_decode($dates);
-                                             //var_dump($date_ary);
+                                             $date_ary = json_decode($dates, true);
+                                             var_dump($date_ary);
                                         ?>
 
                                     </div>
