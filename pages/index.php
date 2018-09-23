@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     
-                                    <div class="huge">$output</div>
+                                    <div class="huge">NLF Days</div>
                                      <div>
                                             <?php
                                             ini_set('display_errors', 'On');
@@ -405,7 +405,7 @@
                             </div>
 
                         </div>
-                        <a href="#">
+                        <a href="/nfldates.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
