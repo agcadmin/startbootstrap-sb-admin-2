@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
-                                    <div>New Comments!</div>
+                                    <?php echo <div> $arrayofDates</div> ?>
                                 </div>
                             </div>
 <?php
@@ -415,7 +415,7 @@ curl_close($curl);
 if ($err) {
   echo "cURL Error #:" . $err;
 } else {
-  echo $response;
+arrayofDates = $response;
 }
 ?>
                         </div>
