@@ -395,9 +395,9 @@
                                              require_once 'functions.php';
                                              $dates = listdates(2);
                                              $date_utf = utf8_encode($dates);
-                                             $date_ary = json_decode($date_utf, TRUE);
-                                             print_r($dates);
-                                             var_dump($date_ary);
+                                             var_dump(json_decode($dates, true));
+
+                                             //$date_ary = json_decode($date_utf, TRUE);
                                         ?>
 
                                     </div>
