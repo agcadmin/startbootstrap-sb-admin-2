@@ -392,6 +392,7 @@
                                      <div>
                                         <?php
                                              include 'functions.php';
+                                             echo "test";
                                             echo first(1); 
                                         ?>
                                     </div>
